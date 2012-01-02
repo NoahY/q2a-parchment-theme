@@ -7,7 +7,7 @@ body, td, input, textarea {
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: 12px;
 }
-.qa-form-tall-button,.qa-search-button,.qa-form-wide-button {
+.qa-form-light-button,.qa-form-tall-button,.qa-search-button,.qa-form-wide-button {
 	border:1px solid white;
 	background:none;
 }
@@ -15,7 +15,7 @@ select {
 	border:1px solid #CCC;
 	background:none;
 }
-.qa-form-tall-hover,.qa-form-wide-hover,.qa-search-button:hover {
+.qa-form-light-hover,.qa-form-tall-hover,.qa-form-wide-hover,.qa-search-button:hover {
 	border:1px solid #888;
 }
 a:link, a:active, a:visited {
@@ -446,7 +446,6 @@ h2 {
     text-align: center;
 }
 .qa-form-light-button, .qa-form-light-hover {
-    background: none repeat scroll 0 0 transparent;
     cursor: pointer;
     font-size: 10px;
     margin-right: 6px;
@@ -454,7 +453,6 @@ h2 {
     padding: 0;
 }
 .qa-form-light-button {
-   border: medium none;
 }
 .qa-form-light-hover, .qa-form-light-button:hover {
 }
