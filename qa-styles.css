@@ -33,6 +33,7 @@ p {
     font-weight: bold;
     padding: 0.5em 32px;
     position: relative;
+    background: none repeat scroll 0 0 white;
 }
 .qa-notice-close-button, .qa-notice-close-hover {
     background: none repeat scroll 0 0 transparent;
@@ -132,7 +133,6 @@ h2 {
 .qa-main-hidden h1 {
 }
 .qa-footer {
-	border-top: 2px dashed black;
     clear: both;
     font-size: 10px;
     padding: 12px;
@@ -332,11 +332,11 @@ h2 {
 .qa-page-prev, .qa-page-next {
 }
 .qa-page-selected {
+    color:#999;
 }
 .qa-page-ellipsis {
 }
 .qa-form-tall-table {
-	border: 1px dashed black;
     width: 500px;
 }
 .qa-form-tall-spacer {
@@ -400,7 +400,6 @@ h2 {
     text-align: center;
 }
 .qa-form-wide-table {
-	border: 1px dashed black;
 }
 .qa-form-wide-spacer {
     font-size: 1px;
@@ -686,14 +685,12 @@ h2 {
 }
 .qa-top-tags-count {
     -moz-border-image: none;
-    border-style: solid dashed solid solid;
     border-width: 1px;
     padding: 6px 8px 6px 12px;
     text-align: right;
 }
 .qa-top-tags-label {
     -moz-border-image: none;
-    border-style: solid solid solid none;
     border-width: 1px 1px 1px medium;
     padding: 3px 16px 0 8px;
 }
@@ -710,15 +707,12 @@ h2 {
 }
 .qa-top-users-label {
     -moz-border-image: none;
-    border-style: solid dashed solid solid;
     border-width: 1px;
     padding: 6px 16px 6px 12px;
     text-align: left;
 }
 .qa-top-users-score {
     -moz-border-image: none;
-    border-style: solid solid solid none;
-    border-width: 1px 1px 1px medium;
     padding: 6px 12px;
     text-align: right;
 }
@@ -1117,7 +1111,6 @@ h2 {
 #wmd-preview {
 	margin: 8px 0;
 	padding: 8px;
-	border: 2px dashed #ccc;
 }
 #wmd-preview > :first-child {
 	margin-top: 0;
