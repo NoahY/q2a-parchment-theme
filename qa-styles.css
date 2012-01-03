@@ -30,7 +30,6 @@ p {
 }
 .qa-notice {
     font-size: 18px;
-    font-weight: bold;
     padding: 0.5em 32px;
     position: relative;
     background: none repeat scroll 0 0 white;
@@ -88,7 +87,6 @@ h2 {
 }
 .qa-error {
     font-size: 16px;
-    font-weight: bold;
     margin-bottom: 1em;
     padding: 0.5em;
 }
@@ -175,7 +173,6 @@ h2 {
     background: url("brush.png") no-repeat scroll left bottom transparent;
     float: left;
     font-size: 40px;
-    font-weight: bold;
     padding: 0 20px 24px;
 }
 .qa-logo-link, .qa-logo-link:hover {
@@ -194,7 +191,6 @@ h2 {
 }
 .qa-nav-user-item {
     display: inline;
-    font-weight: bold;
     margin-left: 12px;
 }
 .qa-nav-user-link {
@@ -262,7 +258,6 @@ h2 {
 }
 .qa-nav-sub-link {
     display: block;
-    font-weight: bold;
     padding: 5px 8px;
     border-bottom: 1px solid white;
 }
@@ -301,7 +296,6 @@ h2 {
     margin: 0.5em 0;
 }
 .qa-nav-cat-link {
-    font-weight: bold;
 }
 .qa-nav-cat-selected, .qa-nav-cat-selected:hover {
     text-decoration: none;
@@ -353,7 +347,6 @@ h2 {
 }
 .qa-form-tall-label {
     font-size: 13px;
-    font-weight: bold;
     padding: 12px 8px 2px;
 }
 .qa-form-tall-data {
@@ -415,7 +408,6 @@ h2 {
 }
 .qa-form-wide-label {
     font-size: 13px;
-    font-weight: bold;
     padding: 6px 10px;
     white-space: nowrap;
 }
@@ -479,7 +471,6 @@ h2 {
 }
 .qa-q-item-title {
     font-size: 16px;
-    font-weight: bold;
 }
 .qa-q-item-title a {
 }
@@ -502,18 +493,14 @@ h2 {
     vertical-align: middle;
 }
 .qa-q-item-when-data {
-    font-weight: bold;
 }
 .qa-q-item-who-title {
     font-size: 80%;
-    font-weight: bold;
 }
 .qa-q-item-points-data {
-    font-weight: bold;
 }
 .qa-q-item-flags {
     display: inline-block;
-    font-weight: bold;
     padding: 2px 5px;
 }
 .qa-q-item-tags {
@@ -633,7 +620,6 @@ h2 {
 .qa-netvote-count-data {
     display: block;
     font-size: 20px;
-    font-weight: bold;
     padding-top: 1px;
 }
 .qa-netvote-count-pad {
@@ -649,7 +635,6 @@ h2 {
 .qa-upvote-count-data, .qa-downvote-count-data {
     display: inline;
     font-size: 18px;
-    font-weight: bold;
 }
 .qa-upvote-count-pad, .qa-downvote-count-pad {
     display: none;
@@ -667,7 +652,6 @@ h2 {
 .qa-a-count-data {
     display: block;
     font-size: 24px;
-    font-weight: bold;
 }
 .qa-a-count-pad {
     font-size: 11px;
@@ -678,7 +662,6 @@ h2 {
     margin: 3px 10px 0 20px;
 }
 .qa-view-count-data {
-    font-weight: bold;
 }
 .qa-top-tags-table {
     border-collapse: collapse;
@@ -739,7 +722,6 @@ h2 {
     font-size: 10px;
 }
 .qa-browse-cat-item {
-    font-weight: bold;
     margin: 0.5em 0;
 }
 .qa-browse-cat-closed {
@@ -749,7 +731,6 @@ h2 {
     list-style: circle outside none;
 }
 .qa-browse-cat-link {
-    font-weight: bold;
     text-decoration: none;
 }
 .qa-browse-cat-note {
@@ -787,7 +768,6 @@ h2 {
     margin-bottom: 18px;
 }
 .qa-q-view-closed-content {
-    font-weight: bold;
 }
 .qa-q-view-extra {
     font-size: 13px;
@@ -795,21 +775,16 @@ h2 {
     margin-bottom: 18px;
 }
 .qa-q-view-extra-content {
-    font-weight: bold;
 }
 .qa-q-view-when-data {
-    font-weight: bold;
 }
 .qa-q-view-who-title {
     font-size: 80%;
-    font-weight: bold;
 }
 .qa-q-view-points-data {
-    font-weight: bold;
 }
 .qa-q-view-flags {
     display: inline-block;
-    font-weight: bold;
     margin: 4px 0;
     padding: 2px 5px;
 }
@@ -890,18 +865,14 @@ h2 {
     vertical-align: middle;
 }
 .qa-a-item-when-data {
-    font-weight: bold;
 }
 .qa-a-item-who-title {
     font-size: 80%;
-    font-weight: bold;
 }
 .qa-a-item-points-data {
-    font-weight: bold;
 }
 .qa-a-item-flags {
     display: inline-block;
-    font-weight: bold;
     padding: 2px 5px;
 }
 .qa-a-item-buttons {
@@ -952,7 +923,6 @@ h2 {
 .qa-a-selected-text {
     display: block;
     font-size: 10px;
-    font-weight: bold;
     margin-top: 6px;
 }
 .qa-c-list-item {
@@ -1002,14 +972,12 @@ h2 {
 }
 .qa-c-item-who-title {
     font-size: 80%;
-    font-weight: bold;
 }
 .qa-c-item-who-points {
     display: none;
 }
 .qa-c-item-flags {
     display: inline-block;
-    font-weight: bold;
     padding: 2px 5px;
 }
 .qa-c-item-buttons {
@@ -1032,7 +1000,6 @@ h2 {
     margin: 0.25em 0;
 }
 .qa-activity-count-data {
-    font-weight: bold;
 }
 .qa-nav-footer-list {
     float: left;
@@ -1045,7 +1012,6 @@ h2 {
     margin-right: 12px;
 }
 .qa-nav-footer-link {
-    text-decoration: underline !important;
 }
 .qa-nav-footer-link:hover {
 }
@@ -1053,20 +1019,16 @@ h2 {
     float: right;
 }
 .qa-attribution a {
-    text-decoration: underline;
 }
 .qa-attribution a:hover {
 }
 .qa-user-link {
-    font-weight: bold;
 }
 .qa-category-link {
-    font-weight: bold;
 }
 .qa-tag-link {
     display: inline-block;
     font-size: 11px;
-    font-weight: bold;
     margin-bottom: 3px;
     padding: 3px 5px;
     text-decoration: none !important;
