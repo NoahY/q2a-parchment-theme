@@ -172,12 +172,14 @@ h2 {
     width: 176px;
 }
 .qa-logo {
+    background: url("brush.png") no-repeat scroll left bottom transparent;
     float: left;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 16px;
+    padding: 0 20px 24px;
 }
 .qa-logo-link, .qa-logo-link:hover {
+    text-decoration:none;
 }
 .qa-nav-user {
     float: right;
