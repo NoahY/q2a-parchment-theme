@@ -11,6 +11,14 @@
                 $this->content['a_form'] = $a_form;
             } 
 		}
+		function logo()
+		{
+			$this->output(
+				'<DIV CLASS="qa-logo">',
+				qa_opt('site_title'),
+				'</DIV>'
+			);
+		}
 	}
 	
 
