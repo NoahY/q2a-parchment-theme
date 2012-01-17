@@ -1,4 +1,5 @@
 body {
+    background: url("background.png") #FFD;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,19 +8,17 @@ body, td, input, textarea {
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: 12px;
 }
-.qa-form-light-button,.qa-form-tall-button,.qa-search-button,.qa-form-wide-button {
-	border:1px solid white;
-	background:none;
-}
+
 select {
-	border:1px solid #CCC;
-	background:none;
+    background-color:#FAFAFA;
 }
-.qa-form-light-hover,.qa-form-tall-hover,.qa-form-wide-hover,.qa-search-button:hover {
-	border:1px solid #888;
+select:hover {
+    background-color:white;
 }
+
 a:link, a:active, a:visited {
-    color: black;
+    font-weight: bold;
+    color:black;
     text-decoration: none;
 }
 a:hover {
@@ -46,7 +45,8 @@ p {
     top: 4px;
 }
 .qa-body-wrapper {
-    margin: -1px auto 0;
+   background: #FFF;
+   margin: -1px auto 0;
     text-align: left;
     width: 980px;
 }
@@ -85,18 +85,14 @@ h2 {
 .qa-unfavorite-hover, .qa-unfavorite-button:hover {
     background-position: 0 0;
 }
-.qa-error {
-    font-size: 16px;
-    margin-bottom: 1em;
-    padding: 0.5em;
-}
-.qa-error a {
-    text-decoration: underline;
-}
-.qa-error a:hover {
-}
+
+.qa-error {background:#fee; border:1px solid #c00; color:#c00; font-size:16px; padding:.5em; margin-bottom:1em; font-weight:bold;}
+.qa-error a {color:#900; text-decoration:underline;}
+.qa-error a:hover {color:#f00;}
+
 .qa-header {
-    padding: 10px 20px 0;
+    background: url("background.png") #CD953F ;
+    padding: 10px 20px 4px;
 }
 .qa-sidepanel {
     float: right;
@@ -107,6 +103,9 @@ h2 {
     margin-right: 10px;
 }
 .qa-sidebar {
+    border: 2px solid Peru;
+    border-radius:4px;
+    background: url("background.png") #FFD;
     font-size: 14px;
     margin: 24px 0;
     padding: 12px;
@@ -121,16 +120,18 @@ h2 {
     font-size: 10px;
 }
 .qa-main {
-    clear: left;
-    float: left;
-    margin-bottom: 2em;
-    overflow: hidden;
-    padding-left: 20px;
-    width: 750px;
+  border-right: 1px solid Peru;
+  clear: left;
+  float: left;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding-left: 20px;
+  width: 750px;
 }
 .qa-main-hidden h1 {
 }
 .qa-footer {
+    background: url("background.png") #CD953F ;
     clear: both;
     font-size: 10px;
     padding: 12px;
@@ -170,11 +171,11 @@ h2 {
     width: 176px;
 }
 .qa-logo {
-    background: url("brush.png") no-repeat scroll left bottom transparent;
+    padding-top: 6px;
     float: left;
-    font-family: Cursive;
-    font-size: 24px;
-    padding: 0 20px 24px;
+    font-family: Times New Roman;
+    font-size: 36px;
+    font-weight: bold;
 }
 .qa-logo-link, .qa-logo-link:hover {
     text-decoration:none;
@@ -197,12 +198,13 @@ h2 {
 .qa-nav-user-link {
 }
 .qa-logged-in {
+    font-weight: bold;
     display: inline;
 }
 .qa-search {
     clear: right;
     float: right;
-    margin-top: 12px;
+    margin: 12px 0;
     white-space: nowrap;
 }
 .qa-search-field {
@@ -219,6 +221,7 @@ h2 {
     padding: 0;
 }
 .qa-nav-main-item, .qa-nav-main-item-opp {
+    background: url("background.png") BlanchedAlmond;
 }
 .qa-nav-main-item {
     float: left;
@@ -231,10 +234,9 @@ h2 {
 .qa-nav-main-link {
     display: block;
     padding: 6px 10px;
-    border-bottom: 2px solid white;
 }
 .qa-nav-main-link:hover, .qa-nav-main-selected {
-    border-bottom: 2px solid black;
+    background: url("background.png") #FFFFBB;
     text-decoration: none;
 }
 .qa-nav-main-hot .qa-nav-main-link {
@@ -243,8 +245,8 @@ h2 {
 }
 .qa-nav-sub {
     clear: both;
-    float: left;
-    padding-top: 3px;
+    margin-top: 4px;
+    padding: 3px 3px 1px;
 }
 .qa-nav-sub-list {
     font-size: 12px;
@@ -253,20 +255,22 @@ h2 {
     padding: 0;
 }
 .qa-nav-sub-item {
+    background: url("background.png") BlanchedAlmond;
     float: left;
     margin-bottom: 2px;
     margin-right: 2px;
 }
 .qa-nav-sub-link {
+    font-weight: bold;
+    color:Olive;
     display: block;
     padding: 5px 8px;
-    border-bottom: 1px solid white;
 }
 .qa-nav-sub-link:hover, .qa-nav-sub-selected {
     text-decoration: none;
 }
 .qa-nav-sub-link:hover, a.qa-nav-sub-selected {
-    border-bottom: 1px solid black;
+    background: url("background.png") #FFFFBB;
 }
 .qa-nav-sub-link.qa-nav-selected {
 }
@@ -334,6 +338,9 @@ h2 {
 .qa-page-ellipsis {
 }
 .qa-form-tall-table {
+    background: url("background.png") #FFD;
+    border: 2px solid Peru;
+    border-radius:4px;
     width: 500px;
 }
 .qa-form-tall-spacer {
@@ -341,11 +348,7 @@ h2 {
     line-height: 1px;
     padding: 0;
 }
-.qa-form-tall-ok {
-    font-size: 18px;
-    padding: 6px;
-    text-align: center;
-}
+.qa-form-tall-ok {background:#efe; border:1px solid #090; color:#090; font-size:18px; padding:6px; text-align:center;}
 .qa-form-tall-label {
     font-size: 13px;
     padding: 12px 8px 2px;
@@ -377,36 +380,44 @@ h2 {
     font-size: 10px;
     font-weight: normal;
 }
-.qa-form-tall-error {
-    display: inline-block;
-    font-size: 14px;
-    margin-top: 6px;
-    padding: 0.5em;
-}
-.qa-form-tall-note {
-    margin-top: 6px;
-}
-.qa-form-tall-note a {
-    text-decoration: underline;
-}
-.qa-form-tall-note a:hover {
-}
-.qa-form-tall-buttons {
+.qa-form-tall-error {background:#fee; border:1px solid #c00; color:#c00; font-size:14px; margin-top:6px; padding:.5em; display:inline-block;}
+.qa-form-tall-note {margin-top:6px; font-style:italic}
+.qa-form-tall-note a {color:#293D39; text-decoration:underline;}
+.qa-form-tall-note a:hover {color:#396E63;}
+
+.qa-form-tall-buttons{
     padding: 8px;
     text-align: center;
 }
+.qa-form-tall-button,.qa-form-wide-button {
+    font-weight: bold;
+    background-color:transparent;
+    border:medium none;
+    background-color:#EEE;
+    border:1px solid black;
+    padding: 4px 8px;
+    text-align: center;
+}
+.qa-form-tall-hover,.qa-form-wide-hover {
+    border:1px solid black;
+    font-weight: bold;
+    background-color:white;
+    padding: 4px 8px;
+    text-align: center;
+
+    cursor:pointer;
+}
 .qa-form-wide-table {
+    border: 2px solid Peru;
+    border-radius:4px;
+    background: url("background.png") #FFD;
 }
 .qa-form-wide-spacer {
     font-size: 1px;
     line-height: 1px;
     padding: 0;
 }
-.qa-form-wide-ok {
-    font-size: 16px;
-    padding: 6px;
-    text-align: center;
-}
+.qa-form-wide-ok {background:#efe; border:1px solid #090; color:#090; font-size:16px; padding:6px; text-align:center;}
 .qa-form-wide-label {
     font-size: 13px;
     padding: 6px 10px;
@@ -425,18 +436,13 @@ h2 {
     vertical-align: middle;
     width: 48px;
 }
-.qa-form-wide-error {
-    display: inline-block;
-    font-size: 11px;
-    margin-left: 6px;
-    padding: 0.5em;
-}
-.qa-form-wide-note {
-    font-size: 10px;
-    margin-left: 4px;
-}
+.qa-form-wide-error {display:inline-block; background:#fee; border:1px solid #c00; color:#c00; font-size:11px; margin-left:6px; padding:.5em;}
+.qa-form-wide-note {font-size:10px; margin-left:4px;}
 .qa-form-wide-buttons {
-    padding: 8px;
+    font-weight: bold;
+    background-color:transparent;
+    border:medium none;
+    padding: 4px 8px;
     text-align: center;
 }
 .qa-form-light-button, .qa-form-light-hover {
@@ -445,12 +451,21 @@ h2 {
     margin-right: 6px;
     overflow: visible;
     padding: 0;
+    font-weight: bold;
+    background-color:transparent;
+    border:medium none;
 }
 .qa-form-light-button {
+    font-weight: bold;
+    background-color:transparent;
+    border:medium none;
 }
 .qa-form-light-hover, .qa-form-light-button:hover {
 }
 .qa-form-basic-button, .qa-form-basic-hover {
+    font-weight: bold;
+    background-color:transparent;
+    border:medium none;
     margin: 4px 4px 4px 0;
     padding: 3px 4px;
     vertical-align: middle;
@@ -463,12 +478,13 @@ h2 {
     font-size: 11px;
 }
 .qa-q-list-item {
+    margin-right: 8px;
+    border-radius:4px;
+    background: url("background.png") #FFD;
     margin-bottom: 24px;
-    padding-bottom: 1px;
+    padding: 8px;
 }
 .qa-q-item-main {
-    float: left;
-    width: 540px;
 }
 .qa-q-item-title {
     font-size: 16px;
@@ -534,6 +550,7 @@ h2 {
     text-decoration: none;
 }
 .qa-voting {
+    background: url("background.png") DarkKhaki  ; 
     float: left;
     height: 42px;
     margin-right: 16px;
@@ -619,11 +636,12 @@ h2 {
     width: 60px;
 }
 .qa-netvote-count-data {
+    font-weight: bold;
     display: block;
-    font-size: 20px;
-    padding-top: 1px;
+    font-size: 24px;
 }
 .qa-netvote-count-pad {
+    font-weight: bold;
     font-size: 11px;
 }
 .qa-upvote-count, .qa-downvote-count {
@@ -642,19 +660,22 @@ h2 {
     font-size: 9px;
 }
 .qa-a-count {
+    background: url("background.png") BlanchedAlmond; 
     float: left;
     height: 42px;
     margin-right: 16px;
     overflow: hidden;
-    padding: 18px 0;
+    padding: 18px 4px;
     text-align: center;
     width: 60px;
 }
 .qa-a-count-data {
+    font-weight: bold;
     display: block;
     font-size: 24px;
 }
 .qa-a-count-pad {
+    font-weight: bold;
     font-size: 11px;
 }
 .qa-view-count {
@@ -665,6 +686,9 @@ h2 {
 .qa-view-count-data {
 }
 .qa-top-tags-table {
+    border: 2px solid Peru;
+    border-radius:4px;
+    background: url("background.png") #FFD;
     border-collapse: collapse;
     float: left;
     margin-bottom: 1em;
@@ -681,12 +705,15 @@ h2 {
     padding: 3px 16px 0 8px;
 }
 .qa-top-tags-label .qa-tag-link {
-    font-weight: normal;
+    
 }
 .qa-top-tags-spacer {
     padding: 0 4px;
 }
 .qa-top-users-table {
+    border: 2px solid Peru;
+    border-radius:4px;
+    background: url("background.png") #FFD;
     border-collapse: collapse;
     float: left;
     margin-bottom: 1em;
@@ -805,6 +832,7 @@ h2 {
     text-align: right;
 }
 .qa-q-view-c-list {
+    border-top: 1px dotted #666666;
     clear: both;
     margin: 24px 0 0 24px;
 }
@@ -848,6 +876,7 @@ h2 {
     width: 600px;
 }
 .qa-a-item-selected {
+    background: url("background.png") #FFD;
     overflow: hidden;
     padding: 10px;
 }
@@ -882,6 +911,7 @@ h2 {
     text-align: right;
 }
 .qa-a-item-c-list {
+    border-top: 1px dotted #666666;
     clear: both;
     margin: 12px 0 0 12px;
 }
@@ -927,6 +957,7 @@ h2 {
     margin-top: 6px;
 }
 .qa-c-list-item {
+    border-bottom: 1px dotted #666666;
     padding: 6px 0 6px 6px;
 }
 .qa-c-item-hidden {
@@ -1023,11 +1054,21 @@ h2 {
 }
 .qa-attribution a:hover {
 }
+.qa-header .qa-user-link {
+    color:Gold !important;
+}
 .qa-user-link {
+    font-weight: bold;
+    color:#C99410  !important;
 }
 .qa-category-link {
+    font-weight: bold;
+    color:ForestGreen !important;
 }
 .qa-tag-link {
+    border: 1px solid Olive;
+    border-radius:4px;
+    background: url("background.png") AliceBlue;
     display: inline-block;
     font-size: 11px;
     margin-bottom: 3px;
