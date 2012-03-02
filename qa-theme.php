@@ -4,12 +4,12 @@
 	{
 		function doctype() 
 		{
-            qa_html_theme_base::doctype();
-            if(isset($this->content['a_form'])) {
-                $a_form = $this->content['a_form'];
-                unset($this->content['a_form']);
-                $this->content['a_form'] = $a_form;
-            } 
+			qa_html_theme_base::doctype();
+			if(isset($this->content['a_form'])) {
+				$a_form = $this->content['a_form'];
+				unset($this->content['a_form']);
+				$this->content['a_form'] = $a_form;
+			} 
 		}
 		function logo()
 		{
@@ -19,6 +19,11 @@
 				'</DIV>'
 			);
 		}
+		function vote_buttons($post) {
+			if($this->template != 'questions' && $this->template != 'qa')
+				qa_html_theme_base::vote_buttons($post);
+		}
+
 	}
 	
 
